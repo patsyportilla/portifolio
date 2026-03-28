@@ -194,12 +194,19 @@ nav { padding: 1.1rem 5%; }
 .nav-links { display: none; }
 .nav-hamburger { display: flex; }
 
-.hero { grid-template-columns: 1fr; min-height: auto; }
-.hero-left { padding: 7rem 7% 3rem; }
+.hero { grid-template-columns: 1fr; min-height: auto; display: flex; flex-direction: column; }
+.hero-left { padding: 7rem 7% 3.5rem; background: var(–espresso); min-height: 70vh; display: flex; flex-direction: column; justify-content: center; }
 .hero-left::after { display: none; }
-.hero-right { padding: 2.5rem 7% 3.5rem; }
+.hero-right { padding: 2.5rem 7% 3.5rem; background: var(–bone); }
 .credential-stack { gap: 1.2rem; }
 .cred-text { font-size: 0.95rem; }
+.hero-eyebrow { color: var(–gold) !important; }
+.hero-name { color: var(–cream) !important; }
+.hero-name em { color: var(–gold-light) !important; }
+.hero-tagline { color: rgba(245,240,232,0.75) !important; }
+.hero-divider { background: var(–gold); }
+.badge { color: var(–gold-light) !important; border-color: rgba(184,147,90,0.5) !important; }
+.hero-cta { color: var(–gold) !important; }
 
 section { padding: 4rem 7%; }
 
